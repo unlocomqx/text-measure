@@ -25,6 +25,7 @@ imagettftext($gd_image, $size, 0, $measure['x'], $measure['y'], $red, $font_path
 
 Here's a preview of the resulting image:  
 ![](/img/preview.png?raw=true)
+![](/img/test.png?raw=true)
 
 ### Technical details
 This code first renders the text following the result given by `imagettfbbox` and uses black for background and red for text.
