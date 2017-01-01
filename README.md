@@ -11,10 +11,10 @@ $measure = $text_measure->measureText();
 The `measureText` method will return an array with this structure
 ````
 array (size=4)
-  'x' => int -6
-  'y' => int 188
-  'width' => int 440
-  'height' => int 188
+  'x' => int -9
+  'y' => int 211
+  'width' => int 1560
+  'height' => int 258
 ````
 
 You can then use this array to create your text like this:
