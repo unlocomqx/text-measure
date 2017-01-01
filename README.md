@@ -25,3 +25,13 @@ imagettftext($gd_image, $size, 0, $measure['x'], $measure['y'], $red, $font_path
 
 Here's a preview of the resulting image:  
 ![](/img/preview.png?raw=true)
+
+### Technical details
+This code first renders the text following the result given by `imagettfbbox` and uses black for background and red for text.
+  
+Then it checks for edges containing red pixels and resizes/moves the measurement accordingly.
+
+Then it trims the image by removing black/empty regions to produce a precise measurement.
+
+
+
